@@ -1,0 +1,20 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "node --test",
+    "format": "prettier --write \"**/*.{html,js,json,css,md}\""
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "prettier": "^3.5.3"
+  }
+}
